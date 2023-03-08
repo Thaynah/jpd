@@ -13,6 +13,7 @@
     "@heroicons/react": "^2.0.16",
     "postcss-cli": "^10.1.0",
     "react": "^18.2.0",
+    "react-countup": "^6.4.1",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
   },
