@@ -2,12 +2,12 @@ import {MoonIcon, SunIcon} from '@heroicons/react/24/solid'
 import { useEffect } from 'react';
 
 const ToggleTheme = () => {
-    const systemPreferences = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // const systemPreferences = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const pageClasses = document.documentElement.classList;
 
-    useEffect(() => {
-        systemPreferences && pageClasses.add('dark');
-    });
+    // useEffect(() => {
+    //     systemPreferences && pageClasses.add('dark');
+    // });
 
     const toggle = () => {
         pageClasses.toggle('dark');
