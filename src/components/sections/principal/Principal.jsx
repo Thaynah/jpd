@@ -3,7 +3,7 @@ import './Principal.css'
 export default function Principal() {
   return (
     <div>
-      <img className="object-cover" src="/geral.png" alt="Foto dos Integrantes" />
+      <video src="/video_01.mp4" autoPlay loop></video>
     </div>
   );
 }

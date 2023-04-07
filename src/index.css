@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,
+html {
+    background-color: #ffffff;
+    color: #1678d3;
+}
+
+h1 { 
+    font-family: 'Rammetto One';
+}
+
+h2,h3,h4,h5,p {
+    font-family: 'Raleway';
+}
+
+.bg-gradient-custom-top { 
+    background: #D5FFFF; 
+    background: -webkit-linear-gradient(to top, #FFFFFF, #D5FFFF, #D5FFFF); 
+    background: linear-gradient(to top, #FFFFFF, #D5FFFF, #D5FFFF); 
+}
+
+.bg-gradient-bottom { 
+    background: #D5FFFF; 
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #D5FFFF, #D5FFFF); 
+    background: linear-gradient(to bottom, #FFFFFF, #D5FFFF, #D5FFFF); 
+}
+
