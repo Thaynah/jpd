@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/jpd-ong/',
   plugins: [react()],
+  define: {
+    __APP_ENV__: 'production',
+  }
 })
